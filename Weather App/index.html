@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Weather Where You Are</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="https://fonts.googleapis.com/css?family=Katibeh|Overlock" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="css/site.css">
+        <script src="js/site.js"></script>
+    </head>
+    <body>
+    	<div class="container" id="divErrorScreen">
+	    	<div class="row">
+			    	<div class="col-xs-12">
+			    		<h1 id=errorCode></h1>
+			    		<h2>Something seems to have gone wrong...</h2>
+			    		<h3>Sorry about that. Here's a video of minions</h3>
+              <video id="errorVideo" autoplay>
+                <source src="assets/video/bananasong.mp4" type="video/mp4">
+              </video>
+			    	</div>
+			    </div>
+	    	</div>
+		<div class="container" id="divSuccessScreen">
+	    	<main>
+	    		<section id=sectionTitle>
+	    			<div class="divTitle">
+
+	    				<h1>What's the weather like in your current location?</h1>
+
+	    			</div>
+	    		</section>
+
+	    		<section id="sectionCurrentWeather">
+					<div class="row">
+						<div class="col-xs-12">
+
+		    				<span id="spanLocation"></span>
+
+		    			</div>
+		    		</div>
+
+		    		<div class="row">
+		    			<div class="col-xs-12">
+							<span id="spanTempC"></span>
+							<span id="spanTempF"></span>
+						</div>
+						<button class="btn btn-default btn-lg" id="buttonC">&degC</button>
+						<button class="btn btn-info btn-lg" id="buttonF">&degF</button>
+					</div>
+
+          <div class="row">
+						<div class="col-xs-12">
+              <p>Humidity percentage:</p><span id="funhumid"></span>
+            </div>
+          </div>
+
+					<div class="row">
+						<div class="col-xs-12">
+              <p>Condition:</p><span id="spanConditions"></span>
+            </div>
+          </div>
+
+		    		<div class="row">
+			    		<div class="col-xs-12">
+			    			<span id="sectionWeatherLogo"></span>
+			    		</div>
+			    	</div>
+
+	    	</main>
+
+	    </div>
+
+    		<footer>
+            <div class="container">
+    				<div class="row">
+
+    					<h4>Contact me <a href="https://www.linkedin.com/in/hanisha-katamaneni-34b862b1" target = "_blank">LinkedIn</a></h4>
+
+    				</div>
+    			</div>
+
+    		</footer>
+
+    </body>
+</html>

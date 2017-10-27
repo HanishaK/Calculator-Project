@@ -1,0 +1,35 @@
+* {
+	color: #fff;
+}
+div, .row {
+	text-align: center;
+	font-family: 'Overlock', cursive;
+}
+
+h1 {
+	font-family: 'Katibeh', cursive;
+	font-size: 5em;
+	margin-bottom: 30px;
+	text-align:center;
+}
+.row {
+	margin-top:15px;
+}
+span,p {
+	font-size: 4em;
+}
+button {
+	margin: 10px;
+}
+#divErrorScreen {
+	display:none;
+}
+#spanTempF {
+	display: none;
+}
+#errorVideo {
+	width: 300px;
+	height: 240px;
+}
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
