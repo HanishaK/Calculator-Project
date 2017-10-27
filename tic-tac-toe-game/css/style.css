@@ -1,0 +1,23 @@
+.jumbotron{
+ background-image: url(https://4.bp.blogspot.com/-UGd-nOoMK5g/WBd6ICqoumI/AAAAAAAAHXI/_6oeNhPtdHUqi6iUStCLvUvDUGV1S82VQCLcB/s1600/tttmarqlrg.gif);
+height:360px;
+background-repeat:no-repeat;
+background-position: center;
+}
+.container1{
+  margin-top: 35px;
+  margin-left:40%;
+}
+.container2{
+  margin-top: 35px;
+  margin-left:43%;
+}
+.btn {
+    padding: 30px 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: #a9b777;
+}
+body{
+    background-color: #dbb47d;
+}

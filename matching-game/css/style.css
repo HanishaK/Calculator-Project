@@ -1,0 +1,20 @@
+#heading{
+  font-family: 'Lemonada', cursive;
+  color:#ffff;
+  text-align:center;
+}
+body{
+  background:#dbc3d0;
+}
+img {
+  position: absolute;
+}
+
+div {
+  position: absolute;
+  height: 500px;
+}
+#rightside {
+  right: 50%;
+  border-left: 5px solid black;
+}
