@@ -1,0 +1,43 @@
+.randomquote, .tweet,.facebook {
+  margin-top: 10px;
+  padding: 10px;
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid gray;
+  font-size: 20px;
+}
+.container {
+  text-align: center;
+}
+body{
+  background: url(http://www.launchphotography.com/New_York_City_skyline.jpg) no-repeat center center fixed;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+   background-size:cover;
+}
+h1{
+  color: #fff;
+  font-family: 'Rozha One', serif;
+  font-weight:bold;
+  margin-top:40px;
+  margin-bottom:60px;
+}
+#quote {
+  color: #fff;
+  font-size: 200%;
+  font-family: 'Libre Baskerville', serif;
+}
+#author{
+  color: #fff;
+  font-size: 150%;
+  font-family: 'Saira Semi Condensed', sans-serif;
+  font-weight:bold;
+}
+.quotes{
+  background:black;
+  opacity:0.7;
+  padding:0.3%;
+  margin-top:45px;
+  border-radius:15px;
+}
